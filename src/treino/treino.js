@@ -1,0 +1,10 @@
+import styled from "styled-components";
+
+export const embrulho = styled.div`
+    background-color: #221f1c;
+    padding-block: 5rem;
+`
+
+export const cards = styled.div`
+    display: flex;
+`
