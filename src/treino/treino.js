@@ -7,4 +7,6 @@ export const embrulho = styled.div`
 
 export const cards = styled.div`
     display: flex;
+    padding: 0;
+    gap: 2rem;
 `

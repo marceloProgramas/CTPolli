@@ -1,11 +1,18 @@
 import * as S from "./card"
 
-export default function Card({imagemLink, Texto}){
+export default function Card({imagemLink, Titulo, Texto}){
 
     return(
         <>
         <S.card URL={imagemLink}>
-        penis
+                <S.Black>
+                <S.Titulo>
+                    {Titulo}
+                </S.Titulo>
+                <S.TextoC>
+                    {Texto}
+                </S.TextoC>
+                </S.Black>
         </S.card>
         </>
     )
