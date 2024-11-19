@@ -10,7 +10,7 @@ export default function Contato(){
         <>
         <S.embalador>
             <S.Imagem
-            src="./public/mestre-frente.jpg"
+            src="https://media.gettyimages.com/id/1365536433/photo/front-view-of-adult-male-athlete-bjj-brazilian-jiu-jistu-black-belt-sitting-in-front-of-white.jpg?b=1&s=2048x2048&w=0&k=20&c=h-0Itmyn010tvT6a8u-_1gjgpOG0sVvIcAQAAhjgp-M="
             alt="professor"
             />
             <S.texto> 
