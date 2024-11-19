@@ -9,8 +9,10 @@ export const embalador = styled.div`
 `
 
 export const Imagem = styled.img`
-    width: 30rem;
-    height: 38rem;
+    width: 50rem;
+    height: 50rem;
+    object-fit: cover; 
+    object-position: center;
     
     margin-right: 4rem;
 `

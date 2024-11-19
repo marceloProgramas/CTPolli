@@ -13,11 +13,15 @@ function App() {
   return (
     <>
     <S.imagem>
+      <S.black> 
       <NavBar id = "NavBar" />
       <Main id = "Main" />
+      </S.black>
     </S.imagem>
     <Treino id="Treino"/>
     <Contato id = "Contato"/>
+    <Preco />
+    <div id='inscricao'/>
     </>
   )
 }

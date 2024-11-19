@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CorpoT = styled.p`
     color:#FEFEFE;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 `
 
 export const Titulo = styled.h2`

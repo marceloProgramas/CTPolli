@@ -7,6 +7,9 @@ export const embalador = styled.div`
     max-width: 60rem;
     
     gap: 2rem;
+
+    margin-left: 26rem;
+    padding-bottom: 8rem;
 `
     
 export const Titulo = styled.h1`
@@ -19,7 +22,7 @@ export const Titulo = styled.h1`
     
 export const texto = styled.p`
     color: #FEFEFE;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 `
 
 export const btn = styled.button`

@@ -2,11 +2,15 @@ import * as S from "./Contato"
 import * as T from "../componentes/Texto"
 
 export default function Contato(){
+    const click = () => {
+        window.open("https://www.exemplo.com", "_blank");
+    }
+
     return(
         <>
         <S.embalador>
             <S.Imagem
-            src="https://pbs.twimg.com/media/GcnqO6SWUAA9F5f?format=jpg&name=large"
+            src="./public/mestre-frente.jpg"
             alt="professor"
             />
             <S.texto> 
@@ -14,9 +18,9 @@ export default function Contato(){
                     Impulsione seu potencial no Jiujitsu
                 </T.Titulo>
                 <T.CorpoT>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin orci vel dui efficitur tincidunt. Pellentesque pulvinar posuere mauris, id rhoncus magna vulputate viverra. Praesent fermentum, ex eu efficitur egestas, augue mi eleifend ipsum, vitae sagittis risus dolor eget nisi. Sed laoreet mattis est, ut elementum nibh bibendum suscipit. Donec mattis ante vitae ipsum suscipit, quis tincidunt sem auctor.
+                CT POLLI é um centro de treinamento de JiuJitsu localizado no bairro Burgo Paulista em São Paulo, SP. Nosso compromisso é proporcionar um ambiente acolhedor e desafiador para praticantes de todos os níveis, desde iniciantes até profissionais. Com uma equipe de instrutores experientes e apaixonados, nos dedicamos a desenvolver habilidades técnicas, promover o bem-estar físico e mental, e cultivar valores como respeito e disciplina em nossos alunos.
                 </T.CorpoT>
-                <T.btn>Contato</T.btn>
+                <T.btn onClick={click}>Contato</T.btn>
             </S.texto>
         </S.embalador>
         </>

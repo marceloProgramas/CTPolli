@@ -4,9 +4,7 @@ export default function NavBar(){
     return(
         <>
         <S.bloco>
-            <S.name>
-                CT Polli
-            </S.name>
+            <S.name>CT Polli</S.name>
         </S.bloco>
         </>
     )
