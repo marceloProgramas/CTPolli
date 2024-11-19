@@ -6,22 +6,25 @@ import Contato from "./Contato/Contato.jsx"
 import Treino from './treino/treino.jsx'
 import Carosel from "./Contato/Contato.jsx"
 import Preco from './Preços/Preco.jsx'
+import Entre from './Entre_Contato/Entre.jsx'
 
 function App() {
   
 
   return (
     <>
-    <S.imagem>
-      <S.black> 
-      <NavBar id = "NavBar" />
-      <Main id = "Main" />
-      </S.black>
-    </S.imagem>
-    <Treino id="Treino"/>
-    <Contato id = "Contato"/>
-    <Preco />
-    <div id='inscricao'/>
+      <S.imagem>
+        <S.black> 
+        <NavBar id = "NavBar" />
+        <Main id = "Main" />
+        </S.black>
+      </S.imagem>
+      <Treino id="Treino"/>
+      <Contato id = "Contato"/>
+      <Preco />
+      <div id='inscricao'>
+        <Entre />
+      </div>
     </>
   )
 }
