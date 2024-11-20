@@ -5,6 +5,12 @@ export const embalador = styled.div`
     background-color: #221f1c;
 
     display: flex;
+    
+
+    @media (max-width: 769px) {
+        flex-direction: column;
+        padding: 10%;
+    }
 
 `
 
@@ -15,6 +21,12 @@ export const Imagem = styled.img`
     object-position: center;
     
     margin-right: 4rem;
+
+    @media (max-width: 769px) {
+        width: 35rem;
+        height: 35rem;
+        margin: auto;
+    }
 `
 
 export const texto = styled.div`
@@ -25,4 +37,9 @@ export const texto = styled.div`
     max-width: 60rem;
     
     gap: 2rem;
+
+    @media (max-width: 769px) {
+        font-size: 1.5rem;
+        max-width: 55rem;
+    }
 `

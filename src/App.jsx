@@ -4,9 +4,7 @@ import NavBar from './Navbar/Navbar.jsx'
 import Main from "./main/Main.jsx"
 import Contato from "./Contato/Contato.jsx"
 import Treino from './treino/treino.jsx'
-import Carosel from "./Contato/Contato.jsx"
 import Preco from './Preços/Preco.jsx'
-import Entre from './Entre_Contato/Entre.jsx'
 
 function App() {
   
@@ -22,9 +20,6 @@ function App() {
       <Treino id="Treino"/>
       <Contato id = "Contato"/>
       <Preco />
-      <div id='inscricao'>
-        <Entre />
-      </div>
     </>
   )
 }

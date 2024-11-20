@@ -4,8 +4,13 @@ export const carta = styled.div`
     border: 0.1rem solid #9a9a9a;
     text-align: left;
     max-width: 56rem;
-
     height: 65rem;
+    
+    
+    @media(max-width: 769px){
+        margin: auto;
+        max-width: 42rem;
+    }
 `
 
 export const plano = styled.h3`
@@ -18,6 +23,9 @@ export const imagem = styled.img`
     margin-top: 2rem;
     
     width:52rem;
+    @media (max-width: 769px) {
+        width: 38rem;
+    }
 `
 export const preco = styled.p`
     font-size: 4rem;
@@ -42,4 +50,8 @@ export const info = styled.button`
 
     margin-inline: 2rem;
     margin-block: 2rem;
+
+    @media (max-width: 769px) {
+        width: 38rem;
+    }
 `

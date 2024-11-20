@@ -14,6 +14,12 @@ export const card = styled.div`
     justify-content: end;
 
     padding: 0;
+
+    @media (max-width: 769px) {
+        width: 35rem;
+        height: 45rem;
+        margin: auto;
+    }
 `
     
 export const Black = styled.div`

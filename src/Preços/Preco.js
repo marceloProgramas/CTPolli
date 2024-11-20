@@ -21,4 +21,8 @@ export const cards = styled.div`
     display: flex;
     gap: 1rem;
     justify-content: center;
+
+    @media (max-width: 769px) {
+        flex-direction: column;
+    }
 `
